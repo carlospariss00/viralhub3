@@ -1,0 +1,72 @@
+/* Global Styles */
+body { 
+    background: #12121a; 
+    color: #ddd; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    padding: 20px; 
+    margin: 0; 
+}
+
+h1 { text-align: center; margin-bottom: 30px; }
+
+/* Gallery Styles */
+.gallery { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 20px; 
+    max-width: 1000px; 
+    margin: 0 auto; 
+}
+
+.video-item { 
+    background: #1a1a2e; 
+    padding: 15px; 
+    border-radius: 10px; 
+    text-align: center; 
+    cursor: pointer; 
+    transition: background 0.3s ease;
+}
+
+.video-item:hover { background: #2a2a3e; }
+.video-title { margin-top: 10px; font-size: 14px; }
+
+/* Pagination Styles */
+.pagination { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 12px; 
+    margin: 24px 0; 
+}
+
+.pagination button { 
+    background: #222235; 
+    color: #ddd; 
+    border: 1px solid #333; 
+    padding: 8px 12px; 
+    border-radius: 6px; 
+    cursor: pointer; 
+}
+
+.pagination button[disabled] { opacity: 0.4; cursor: default; }
+.page-info { color: #aaa; font-size: 14px; }
+
+/* Player Styles (play.html) */
+.container { 
+    max-width: 800px; 
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+video { 
+    width: 100%; 
+    max-width: 800px; 
+    border-radius: 12px; 
+    background: #000; 
+    box-shadow: #fabeff77 0 0 10px; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.not-found { color: white; text-align: center; margin-top: 50px; }
+.not-found a { color: #0ef; text-decoration: none; }
