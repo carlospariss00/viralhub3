@@ -304,7 +304,10 @@
     { "id": 300, "title": "Video 300", "src": "https://placerverdadero.xyz/vid3/video97.mp4" },
     { "id": 301, "title": "Video 301", "src": "https://placerverdadero.xyz/vid3/video98.mp4" },
     { "id": 302, "title": "Video 302", "src": "https://placerverdadero.xyz/vid3/video99.mp4" },
-    { "id": 303, "title": "Video 303", "src": "https://placerverdadero.xyz/vid3/video100.mp4" }
+    { "id": 303, "title": "Video 303", "src": "https://placerverdadero.xyz/vid3/video100.mp4" },
+
+    { "id": 304, "title": "video304", "src": "https://placerverdadero.xyz/vid4/video304.mp4"},
+    { "id": 305, "title": "video305", }
     
     
     
