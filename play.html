@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
+
 
     <meta charset="UTF-8">
-    <meta name="monetag" content="6f8d1337dfa42e5748e947f410823678">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>viralhub3</title>
     <link rel="stylesheet" href="css/style.css">
@@ -19,26 +21,12 @@
     </div>
 
     <script src="js/player.js"></script>
-    <script>
-(function () {
-    const lastShown = localStorage.getItem('monetagTime');
-    const now = Date.now();
-    const sixHours = 6 * 60 * 60 * 1000;
-
-    if (!lastShown || (now - lastShown > sixHours)) {
-
-        localStorage.setItem('monetagTime', now);
-
-        (function(s){
-            s.dataset.zone='10728149';
-            s.src='https://al5sm.com/tag.min.js';
-        })([document.documentElement, document.body]
-        .filter(Boolean)
-        .pop()
-        .appendChild(document.createElement('script')));
-    }
-})();
+     <script type="text/javascript">
+    aclib.runPop({
+        zoneId: '11530710',
+    });
 </script>
+
 
     
 </body>
